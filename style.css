@@ -1,0 +1,129 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #e3f2fd, #fff);
+  margin: 0;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(90deg, #673ab7, #9c27b0);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+header .back {
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  left: 20px;
+  top: 25px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 350px;
+}
+
+.btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #7b1fa2, #e040fb);
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  margin: 10px 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.btn.secondary {
+  background: linear-gradient(90deg, #3949ab, #5c6bc0);
+}
+
+.form-card {
+  background: white;
+  width: 350px;
+  margin: 50px auto;
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 15px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(90deg, #7b1fa2, #e040fb);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+table {
+  margin: 40px auto;
+  border-collapse: collapse;
+  width: 90%;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+th {
+  background: #673ab7;
+  color: white;
+  padding: 12px;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background: #f1f1f1;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  color: #777;
+}

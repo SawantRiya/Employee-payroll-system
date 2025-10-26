@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add Employee | AkshRiya</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>➕ Add Employee</h1>
+    <a href="index.html" class="back">⬅ Back to Home</a>
+  </header>
+
+  <form action="save_employee.php" method="POST" class="form-card" onsubmit="return calculateSalary();">
+    <label>Full Name</label>
+    <input type="text" name="name" required>
+
+    
+    <label>Designation</label>
+    <input type="text" name="designation" required>
+
+    <label>Basic Salary (₹)</label>
+<input type="number" id="basic" name="basic" required oninput="autoCalculate();">
+
+<label>HRA (20%)</label>
+<input type="number" id="hra" name="hra" readonly>
+
+<label>DA (10%)</label>
+<input type="number" id="da" name="da" readonly>
+
+<label>Gross Salary (₹)</label>
+<input type="number" id="gross" name="gross" readonly>
+
+
+    <button type="submit" class="btn">💾 Save Employee</button>
+  </form>
+</body>
+</html>
